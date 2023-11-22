@@ -1,0 +1,148 @@
+/*  
+
+pale-blue : #ebf3fa; 
+marine-blue : #234179; 
+dark-red: #af443f  
+dark-blue: #253a62 
+
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #253a62;
+    background-image: url(./assets/blue-pale.svg);
+    background-repeat: no-repeat;
+}
+
+section {
+    width: 960px;
+    height: 100vh;
+    padding-top: 10rem;
+    margin: auto;
+}
+
+
+
+/* PARTIE HEADER  */
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    /* glass.css */
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+nav {
+    margin-right: 3rem;
+}
+
+nav a {
+    margin-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #253a62 
+}
+
+.btn-round {
+    border: solid #253a62 1px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.gradient {
+    background: linear-gradient(to bottom, #234179, #af443f);
+    color: white;
+    margin-top: 3rem;
+}
+
+
+header .btn-round:hover {
+    background-color: #253a62;
+    color: white;
+}
+
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+
+/* SECTION HOME */
+
+
+.home-img {
+    width: 35rem;
+    height: 22rem;
+    margin-top: 3rem;
+}
+
+#home {
+    display: flex;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+span {
+    font-weight: lighter;
+}
+
+#home p:last-of-type {
+    margin-bottom: 2rem;
+}
+
+
+/* SECTION SERVICES  */
+
+
+#services img {
+    width: 22rem;
+    height: 15rem;
+}
+
+#services h1 {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+#services p {
+    text-align: justify;
+    width: 15rem;
+}
+
+.services-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
