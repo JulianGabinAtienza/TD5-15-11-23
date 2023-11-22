@@ -147,6 +147,7 @@ span {
     grid-template-columns: repeat(3, 1fr);
 }
 
+
 /* SECTION ABOUT  */
 
 
@@ -157,6 +158,17 @@ span {
     margin-top: 1rem;
 }
 
+#about > div {
+    display: flex;
+}
+
+
+#about img{
+    width: 10rem;
+    height: 9rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
 #about > div {
     display: flex;
 }
@@ -227,3 +239,14 @@ form label {
     font-weight: bold;
     margin-bottom: 6px;
 }
+
+.team-member h2 {
+    margin-bottom: 0;
+}
+.team-member p {
+    text-align: justify;
+}
+.team-member > p:first-of-type {
+    margin-top: 0;
+}
+
