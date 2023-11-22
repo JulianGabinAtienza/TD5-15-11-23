@@ -146,3 +146,25 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+#about img{
+    width: 10rem;
+    height: 9rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+#about > div {
+    display: flex;
+}
+#about h1 {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.team-member h2 {
+    margin-bottom: 0;
+}
+.team-member p {
+    text-align: justify;
+}
+.team-member > p:first-of-type {
+    margin-top: 0;
+}
