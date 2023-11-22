@@ -44,7 +44,9 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
+.burger-menu {
+    display: none;
+}
 
 .logo {
     font-size: 1.5rem;
@@ -202,6 +204,7 @@ form {
     border-radius: 20px;
     padding: 1rem;
     box-shadow: 0px 0px 10px 10px rgba(0, 0 , 0, 0.1);
+    width: 16rem;
 }
 
 form input, textarea {
@@ -226,4 +229,68 @@ input[type="submit"] {
 form label {
     font-weight: bold;
     margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 600px){
+    section {
+        width: 100vw;
+        margin-bottom: 15rem;
+        height: auto;
+        margin-left: 2rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        width: 2rem;
+    }
+    #home {
+        flex-direction: column;
+        text-align: justify;
+        margin-left: 2rem;
+    }
+    #home img {
+        width: 25rem;
+        height: 15rem;
+    }
+
+    .services-grid {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    #contact .container {
+        flex-direction: column;
+    }
+    
+    #contact img {
+        width: 18rem;
+        height: 12rem;
+        margin-right: 0;
+    }
+    #about > div {
+        flex-direction: column;
+        text-align: center;
+    }
+    #about img {
+        margin: auto;
+    }
+    #about > div {
+        flex-direction: column;
+    }
+    #about h2 {
+        text-align: center;
+    }
+    .team-member p:first-of-type {
+        text-align: center;
+    }
+    #contact img {
+        width: 18rem;
+        height: 12rem;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
 }
