@@ -146,3 +146,84 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+/* SECTION ABOUT  */
+
+
+#about img {
+    width: 8rem;
+    height: 7rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+#about > div {
+    display: flex;
+}
+
+#about h1 {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.team-member h2 {
+    margin-bottom: 0;
+}
+
+.team-member p {
+    text-align: justify;
+}
+
+.team-member > p:first-of-type {
+    margin-top: 0;
+}
+
+/* SECTION CONTACT */
+
+#contact h1 {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+#contact img {
+    width: 28rem;
+    height: 19rem;
+    margin-right: 2rem;
+}
+
+#contact .container {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0 , 0, 0.1);
+}
+
+form input, textarea {
+    width: 15rem;
+    border-radius: 20px;
+    border: solid 1px #253a62;
+    padding: 6px;
+    margin-bottom: 1rem;
+}
+
+form textarea {
+    height: 10rem;
+}
+
+input[type="submit"] {
+    width: 15rem;
+    background-color: #253a62;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
